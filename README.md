@@ -1,16 +1,22 @@
-## Hi there 👋
+# Hi, I'm Kristiaan 👋
 
-<!--
-**KGO10/KGO10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ML Engineer / Senior Data Research Analyst focused on NLP and automation for financial & ESG data.
 
-Here are some ideas to get you started:
+**What I work on:**
+- **NLP & LLMs** — text classification, document understanding, GPT-based automation
+- **ML Engineering** — FastAPI inference services, Docker, CI/CD pipelines, drift monitoring
+- **Data pipelines** — Python + SQL automations in production environments
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Tech stack:** Python · pandas · NumPy · scikit-learn · Hugging Face Transformers · PyTorch · FastAPI · Docker · SQL · Git · GitHub Actions · REST APIs · NLP · LLMs · MLflow
+
+---
+
+**Highlighted Projects:**
+
+[**MarketNLP**](https://github.com/KGO10/marketnlp) — News-driven sector direction forecasting (UP/DOWN) for the XLK ETF
+
+- Ingests 20 years of financial headlines (FMP API) from the top 10 XLK constituents; incremental updates with disk caching
+- TF-IDF + Logistic Regression baseline and DistilBERT fine-tune, evaluated via 6-fold walk-forward backtesting (no lookahead)
+- FastAPI inference service with prediction logging, Dockerized, CI champion-promotion gate, and TVD-based drift monitoring
+
+---
