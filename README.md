@@ -23,6 +23,6 @@ ML Engineer / Senior Data Research Analyst focused on NLP and automation for fin
 
 - Retrieval‑augmented LLM system over SFDR prospectuses and disclosures with page‑level filtering for long regulatory documents
 - FastAPI /ask service enforcing strict refusals and citation validation to prevent hallucinations
-- End‑to‑end evaluated (100% answerable success, 100% unanswerable refusal accuracy) and exposed as a Slack bot (upload PDFs → ask questions)
+- End‑to‑end evaluated and exposed as a Slack bot (upload PDFs → ask questions)
 
 ---
