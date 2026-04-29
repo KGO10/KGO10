@@ -7,7 +7,7 @@ ML Engineer / Senior Data Research Analyst focused on NLP and automation for fin
 - **ML Engineering** — FastAPI inference services, Docker, CI/CD pipelines, drift monitoring
 - **Data pipelines** — Python + SQL automations in production environments
 
-**Tech stack:** Python · pandas · NumPy · scikit-learn · Hugging Face Transformers · PyTorch · FastAPI · Docker · SQL · Git · GitHub Actions · REST APIs · NLP · LLMs · MLflow
+**Tech stack:** Python · pandas · NumPy · scikit-learn · Hugging Face Transformers · PyTorch · FastAPI · Docker · SQL · Git · GitHub Actions · FAISS · REST APIs · NLP · LLMs · MLflow
 
 ---
 
@@ -18,5 +18,11 @@ ML Engineer / Senior Data Research Analyst focused on NLP and automation for fin
 - Ingests 20 years of financial headlines (FMP API) from the top 10 XLK constituents; incremental updates with disk caching
 - TF-IDF + Logistic Regression baseline and DistilBERT fine-tune, evaluated via 6-fold walk-forward backtesting (no lookahead)
 - FastAPI inference service with prediction logging, Dockerized, CI champion-promotion gate, and TVD-based drift monitoring
+
+[**SFDR_RAG_Assistant**](https://github.com/KGO10/SFDR_RAG_Assistant) — ESG disclosure Q&A (RAG, reliability‑focused)
+
+- Retrieval‑augmented LLM system over SFDR prospectuses and disclosures with page‑level filtering for long regulatory documents
+- FastAPI /ask service enforcing strict refusals and citation validation to prevent hallucinations
+- End‑to‑end evaluated (100% answerable success, 100% unanswerable refusal accuracy) and exposed as a Slack bot (upload PDFs → ask questions)
 
 ---
